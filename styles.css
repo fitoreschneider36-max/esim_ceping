@@ -155,6 +155,7 @@ main {
 .intro-band,
 .cta-band,
 .comparison,
+.external-reading,
 .article-layout {
   border-top: 1px solid var(--line);
   padding: 48px 0;
@@ -226,6 +227,34 @@ h3 {
 }
 
 .guide-card p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.external-reading .section-heading p:last-child {
+  max-width: 760px;
+  color: var(--muted);
+}
+
+.resource-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.resource-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 22px;
+}
+
+.resource-card h3 {
+  font-size: 21px;
+}
+
+.resource-card p:last-child {
   margin-bottom: 0;
   color: var(--muted);
 }
@@ -379,6 +408,10 @@ tr:last-child td {
   }
 
   .guide-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-list {
     grid-template-columns: 1fr;
   }
 
