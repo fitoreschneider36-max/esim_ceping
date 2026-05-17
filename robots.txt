@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
 
-Sitemap: https://fitoreschneider36-max.github.io/esim_ceping/sitemap.xml
+Sitemap: https://fitoreschneider36-max.github.io/esimka.top_ceping/sitemap.xml
